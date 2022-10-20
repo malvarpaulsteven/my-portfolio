@@ -3,11 +3,211 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="img/img2.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/3312ebb1ff.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
   </head>
+
   <body>
+    <nav class="navigation-bar navbar navbar-expand-lg bg-light navbar-light shadow-sm sticky-top">
+      <div class="container">
+        <a href="# " class="navbar-brand">
+          My<span class="fw-bold text-warning">PORTFOLIO</span>
+        </a>
+        <button 
+          class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#nav-menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="nav-menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     
+    <!-- Main -->
+    <section class="main text-center p-5 text-center text-sm-start" id="main">
+      <div class="container">
+        <div class="d-lg-flex align-items-center">
+          <div class="">
+              <h1 class="fw-light">
+                WELCOME
+              </h1>
+              <p class="lead fs-2 fw-bold mb-0">I'm Paul Steven Malvar</p>
+              <p class="lead fs-5">Aspiring Web Developer</p>
+              <p class="lead">
+                <i>
+                  "Testing leads to failure, and failure leads to understanding."
+                </i>
+                 - Burt Rutan
+              </p>
+              <button class="btn btn-warning btn-md w-50 mt-3">
+               <a href="https://drive.google.com/file/d/1e_GzRENxBi8bSsfr93kTn7ZORsZWZIgz/view?usp=sharing" class="nav-link">
+                <i class="fa-solid fa-download"></i>  Download Cv 
+               </a>
+              </button>
+          </div>
+              <!-- <img class="img-fluid w-50" src="img/img2.png" alt=""> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me-info p-5 text-center text-lg-start " id="about">
+      <div class="container">
+        <div class="row justify-content-evenly align-items-center p-5 ">
+          <div class="col-lg d-flex align-items-center">
+            <img class="img-profile img-fluid rounded-circle shadow-md" src="img/my-pic.jpeg" alt="">
+          </div>
+          <div class="col-md">
+            <h1 class="">About Me</h1>
+            <p class="lead fs-6 text-secondary mb-0">
+              <i class="fa-solid fa-location-dot"></i> 
+              P. Gomez Street, Sangalang, Lemery, Batangas, Philippines
+            </p>
+            <p class="lead fs-6 text-secondary mb-0">
+              <i class="fa-solid fa-graduation-cap fa-1x"></i>
+              BS Computer Science
+            </p>
+            <p class="lead fs-6 text-secondary mb-0">
+              <i class="fa-solid fa-school"></i>
+              Rizal College of Taal - Taal, Batangas
+            </p>
+
+            <p class="lead mt-3">
+              I recently earned a degree in computer science, and I'm eager to continue learning. I'm really motivated and passionate about growing.
+              I have a habit for finishing tasks ahead of schedule, which I believe is crucial when things are always changing and evolving.
+              I take the initiative and always think of new approaches to solve problems.
+            </p>
+            <hr>
+            <p class="lead fs-6 text-secondary mb-0">
+              Hobbies: Coding/ Watching Movies/ Playing Computer Games/etc.
+            </p>
+            <button class="btn btn-warning btn-md mt-3">
+              <a href="" class="nav-link">
+                <i class="fa-solid fa-phone"></i> Contact Me
+              </a>
+             </button>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Skills -->
+    <div class="skills-page d-flex justify-content-center align-items-center bg-warning" id="skills">
+      <div class="">
+        <h1 class=" text-center p-2 mb-0">
+          My Skills
+        </h1>
+          <div class="col-lg d-flex align-items-center justify-content-center">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="img/html-logo.png" class="" alt="..." width="200px">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="img/css-logo.png" class="" alt="..." width="200px">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="img/javascript-logo.png" class="" alt="..." width="200px">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="img/bootstrap-logo.png" class="" alt="..." width="200px">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="img/nodejs-logo.png" class="" alt="..." width="200px">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="img/reactjs-logo.png" class="" alt="..." width="200px">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000" >
+                  <img src="img/php-logo.png" class="" alt="..." width="200px">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="img/laravel-logo.png" class="" alt="..." width="200px">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="img/git-logo.png" class="" alt="..." width="200px">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Portfolio -->
+    <section class="p-5" id="portfolio">
+      <div class="container">
+        <h1 class="text-center mb-5">My Portfolio</h1>
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card">
+              <div class="card-body bg-light border border-none">
+                <img src="" alt="">
+                <h5 class="card-title">Online Library</h5>
+                <p class="card-text">
+                  This is my first responsive website. This is my first responsive website.This is my first responsive website.This is my first responsive website.This is my first responsive website.This is my first responsive website.
+                </p>
+                <a href="#" class="btn btn-warning">Go to Website</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card">
+              <div class="card-body">
+                <img src="" alt="">
+                <h5 class="card-title">My Personal Blog</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis magnam ex fuga, nam autem possimus consectetur laborum temporibus? Nulla natus, fugit illo quam ratione necessitatibus exercitationem deserunt ad distinctio tempora?</p>
+                <a href="#" class="btn btn-warning">Go to Website</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card">
+              <div class="card-body">
+                <img src="" alt="">
+                <h5 class="card-title">Coming Soon</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione rem eveniet eligendi libero! Nobis corporis aut et, consequuntur, iusto voluptas natus nulla corrupti quibusdam quo quod unde eius dolorem accusamus!</p>
+                <a href="#" class="btn btn-warning">Go to Website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

@@ -27,7 +27,7 @@ nav ul a:hover{
     text-transform: uppercase;
     letter-spacing: 4px;
     overflow: hidden;
-    background: linear-gradient(90deg, #f0ad4e, #fff, #f0ad4e);
+    background: linear-gradient(90deg, #f0ad4e, rgb(3, 3, 3), #f0ad4e);
     background-repeat: no-repeat;
     background-size: 80%;
     animation: animate 5s linear infinite;
